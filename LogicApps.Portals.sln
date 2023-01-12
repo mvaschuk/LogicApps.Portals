@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogicApps.Portals", "LogicApps.Portals.csproj", "{F06FC2C2-3F15-433D-8874-A660280A354D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F06FC2C2-3F15-433D-8874-A660280A354D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F06FC2C2-3F15-433D-8874-A660280A354D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F06FC2C2-3F15-433D-8874-A660280A354D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F06FC2C2-3F15-433D-8874-A660280A354D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C26971D7-24C9-454D-850B-84A70C1C7C50}
+	EndGlobalSection
+EndGlobal
