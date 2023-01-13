@@ -118,15 +118,5 @@ namespace LogicApps.Portals.Plugin.Contact
             }
             return (text ?? string.Empty).Trim();
         }
-
-        public enum Contact_StatusCode
-        {
-
-            [System.Runtime.Serialization.EnumMember()]
-            Active = 1,
-
-            [System.Runtime.Serialization.EnumMember()]
-            Inactive = 2,
-        }
     }
 }

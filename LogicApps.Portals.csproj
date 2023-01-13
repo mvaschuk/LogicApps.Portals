@@ -127,6 +127,7 @@
     <Compile Include="Models\ImportProcessDto.cs" />
     <Compile Include="PluginBase.cs" />
     <Compile Include="Plugin\Contact\ImportExcel.cs" />
+    <Compile Include="Plugin\Contact\SetCustomId.cs" />
     <Compile Include="Plugin\IUnitOfService.cs" />
     <Compile Include="Plugin\PluginBase.cs" />
     <Compile Include="Plugin\PluginMessage.cs" />

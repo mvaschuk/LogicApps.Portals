@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using Microsoft.Xrm.Sdk;
 using Newtonsoft.Json;
-using LogicApps.Portals;
 using LogicApps.Portals.Helpers;
 
 namespace LogicApps.Portals.CustomEntity
@@ -17,7 +16,7 @@ namespace LogicApps.Portals.CustomEntity
             var customEntities = new List<CustomEntity>();
             foreach (var entity in entities)
             {
-                var customEntity = new LogicApps.Portals.CustomEntity.CustomEntity()
+                var customEntity = new CustomEntity()
                 {
                     Id = entity.Id,
                     LogicalName = entity.LogicalName

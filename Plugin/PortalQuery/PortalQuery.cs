@@ -14,8 +14,6 @@ namespace LogicApps.Portals.Plugin.PortalQuery
             IUnitOfService unitOfService = new UnitOfService(serviceProvider);
             CheckPlugin(unitOfService, GlobalConfiguration.EntityName, GlobalConfiguration.Message, GlobalConfiguration.PluginStage);
 
-
-
             if (unitOfService.PluginExecutionContext.InputParameters["Query"] is FetchExpression query)
             {
                 QueryService queryService = new QueryService(unitOfService, query);
